@@ -3,36 +3,31 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>cn.edu.cuit.mallsystem</groupId>
-		<artifactId>ssm-parent</artifactId>
+		<artifactId>mallsystem-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>ssm-dao</artifactId>
+	<artifactId>mallsystem-dao</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			
 		</dependency>
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
-			
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			
 		</dependency>
 		<dependency>
-				<groupId>org.mybatis</groupId>
-				<artifactId>mybatis</artifactId>
-				
-			</dependency>
-			<!-- 数据库驱动：要根据你的数据库服务器而变 -->
-			<dependency>
-				<groupId>mysql</groupId>
-				<artifactId>mysql-connector-java</artifactId>
-				
-			</dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+		</dependency>
+		<!-- 数据库驱动：要根据你的数据库服务器而变 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
 	</dependencies>
 </project>

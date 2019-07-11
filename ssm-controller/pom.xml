@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>cn.edu.cuit.mallsystem</groupId>
-    <artifactId>ssm-parent</artifactId>
+    <artifactId>mallsystem-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ssm-controller</artifactId>
+  <artifactId>mallsystem-controller</artifactId>
   <packaging>war</packaging>
 </project>
