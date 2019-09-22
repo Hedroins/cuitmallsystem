@@ -7,4 +7,5 @@
   </parent>
   <artifactId>mallsystem-controller</artifactId>
   <packaging>war</packaging>
+  
 </project>
